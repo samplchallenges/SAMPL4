@@ -1,0 +1,40 @@
+#SAMPL4 OctaAcid Binding Free Energy Predictions
+#
+#This work has been performed as part of the Spring 2013 CHEM525 Statistical 
+#Thermodynamics graduate course final at Rutgers University, Piscataway, NJ 
+#
+#Instructor and coordinator:
+# Emilio Gallicchio <emilio.gallicchio@gmail.com>
+#
+#Students:
+# He Chen <hehechen@rutgers.edu>
+# Michael Fitzgerald <michfitz@eden.rutgers.edu>
+# Yang Gao <yg187@rutgers.edu>
+# Peng He <ph212@eden.rutgers.edu>
+# Malathi Kalyanikar <ms.kalyanikar@rutgers.edu>
+# Chuan Kao <cjkao@eden.rutgers.edu>
+# Beidi Lu <bl348@eden.rutgers.edu>
+# Yijie Niu <yn81@eden.rutgers.edu>
+# Manasi Pethe <manasi.pethe@rutgers.edu>
+# Jie Zhu <jie.zhu.jz@rutgers.edu>
+# Haoyuan Chen <haoyuan.chen@rutgers.edu>
+#
+#
+#Format: Compound number, predicted standard binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+1, -1.04, 0.15, 2
+2, -5.14, 0.18, 3
+3, -3.96, 0.17, 3
+4, -6.03, 0.16, 3
+5, -4.12, 0.17, 3
+6, -5.04, 0.10, 5
+7, -7.18, 0.09, 4
+8, -1.18, 0.16, 2
+9, -4.78, 0.18, 2
+#Experimental data used:
+#The binding free energy value for guest 6 reported is the experimental value
+#reported by Sun et al. Supramolecular Chemistry, 20, 141 (2008). The
+#computed binding free energy value for this guest is -5.33 kcal/mol,
+#very similar to the experimental value.
+#The binding free energy protocol was retrospectively validated on the systems 
+#reported in the same study.
+#

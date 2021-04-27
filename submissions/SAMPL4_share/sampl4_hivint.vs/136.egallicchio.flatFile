@@ -1,0 +1,15 @@
+RefNo: 136
+Username: egallicchio
+Email: emilio.gallicchio@gmail.com
+Anonymous: no 
+Method: 2D singleConf flexConf 3D implSolv multConf md
+Personhours: 1 to 2 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: Various
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/136.egallicchio.data
+Datafile Name: SAMPL4_Phase1_Consensus.csv
+Methodfile: ../database/sampl4_hivint.vs/136.egallicchio.text
+Methodfile Name: SAMPL4_narrative.txt
+

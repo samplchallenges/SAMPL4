@@ -1,0 +1,25 @@
+#This is CB7/Funnel metadynamics
+#Relative binding affinities determined from the potential of mean force along the binding axis, 
+#calculated by two-dimensional metadynamics using a funnel-shaped restrain to facilitate convergence
+#Ya-Wen Hsiao and Par Soderhjelm, August 16, 2013
+#
+#Format: Compound number, predicted relative binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1,  -17.45, 0.45,4  
+2,  -15.72, 0.74,4 
+3,  -12.58, 0.85,3  
+4,  -16.37, 0.52,4 
+5,  -16.92, 0.83,4  
+6,  -17.54, 0.37,4  
+7,  -16.38, 0.63,4  
+8,  -17.63, 0.80,4  
+9,  -17.81, 1.01,4  
+10, -20.03, 0.50,2  
+11, -15.04, 1.50,2  #Racemic mix
+11a,-14.76, 0.60,3 #Isomer 1
+11b,-15.32, 2.45,2 #Isomer 2
+12,  -9.95, 2.22,2
+13, -14.45, 0.98,3
+14, -11.26, 0.56,3
+#List any experimental data consulted (with references) and how it was used, if at all, here.  

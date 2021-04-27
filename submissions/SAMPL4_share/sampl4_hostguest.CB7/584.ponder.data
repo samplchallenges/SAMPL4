@@ -1,0 +1,40 @@
+#
+###############################################################################
+#
+# SAMPL4 Cucurbit[7]uril Binding Predictions 
+# Ponder Lab (Chris Mejias, Justin Xiang, Jay Ponder)
+# Chemistry, Washington University, St. Louis
+#
+# Format: Compound number, predicted relative binding free energy in kcal/mol,
+# predicted uncertainty in calculated value (kcal/mol), confidence (1=low
+# confidence, 5=very confident)
+#
+# This is a comma delimited file format. Lines preceded by a '#' will be
+# treated as comments.
+#
+# A section of comments at the end should be used to specify any experimental
+# data consulted during the challenge and how it was used, if at all.
+#
+1, -12.27, 0.92, 5
+2,       -6.46, 0.65, 5
+3,       -6.59, 0.74, 5
+4,      -11.34, 0.89, 5
+5,       -3.37, 0.68, 3
+6,       -6.18, 0.69, 5
+7,      -10.49, 0.66, 5
+8,      -11.84, 0.68, 5
+9,      -15.42, 0.71, 5
+10,      -5.06, 0.91, 5
+11,     -10.48, 0.64, 5
+12,     -12.11, 0.70, 5
+13,     -13.92, 0.65, 5
+14,     -12.41, 0.72, 5
+#
+# List any experimental data consulted (with references) and how it was used,
+# if at all, here:
+#
+# Literature Consulted:  none, other than references listed in the original
+# SAMPL file download
+#
+###############################################################################
+#

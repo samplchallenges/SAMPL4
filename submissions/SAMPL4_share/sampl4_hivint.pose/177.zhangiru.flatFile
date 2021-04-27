@@ -1,0 +1,15 @@
+RefNo: 177
+Username: zhangiru
+Email: kamzhang@riken.jp
+Anonymous: no
+Method: 2D explSolv singleConf flexConf 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 1 hour
+OS: Linux
+Hardware: 2.0GHz quad-core Xeon
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.pose/177.zhangiru.data
+Datafile Name: ZhangIRU_Japan_SAMPL4_results_pose_prediction.zip
+Methodfile: ../database/sampl4_hivint.pose/177.zhangiru.text
+Methodfile Name: Zhang_IRU_Methodology_SAMPL4.docx
+

@@ -1,0 +1,64 @@
+#
+###############################################################################
+#
+# SAMPL4 Cucurbit[7]uril Binding Predictions 
+# Ponder Lab (Chris Mejias, Justin Xiang, Jay Ponder)
+# Chemistry, Washington University, St. Louis
+#
+# Methodology:  Molecular dynamics-based free energy calculations using AMOEBA
+# force field and TINKER software; Absolute binding energies via full explicit
+# solvent simulations computed for each system; Bennett Acceptance Ratio (BAR)
+# used to find free energy values; Statistical error computed from a standard
+# bootstrapping technique
+#
+# Some 40-50 total simulations were run for each ligand/guest; roughly half
+# of them to "disappear" the molecule in water, and half to disappear the
+# ligand when bound to the cucurbituril. All molecules were modeled as simple
+# CB7 inclusion complexes of 1:1 stoichiometry. A weak harmonic restraint
+# was used to keep each ligand inside the CB7. The restraints were accounted
+# for via explicit simulation for the restraint introduction, and analytical
+# correction for the final restraint removal.
+#
+# Simulations were run for a minimum of 1 ns, and those in statistically
+# difficult regions of the protocol were continued for as long as 3 ns. All
+# calculations were run in the NVT ensemble at 298 K. The PV correction to
+# the overall binding free energy is estimated to be very small, and was
+# neglected. Calculations were performed with the TINKER "DYNAMIC" program
+# using a simple RESPA integrator and a 2.0 fs time step. Induced dipoles
+# in the polarizable AMOEBA force field were converged to an RMS change per
+# atom of 0.00001 Debye. For the simulation box sizes chosen (roughly 6500
+# atoms total), each 1 ns of MD simulation required about 2 days on a single
+# typical, modern 8-core node.
+#
+# All molecules were modeled as fully protonated (all the N's as ammonium),
+# with two exceptions. Molecule 5 binds to CB7 roughly equally well as the
+# mono- and di-protonated species, and should be mostly mono-protonated in
+# free solution at pH 7.4. Molecule 10 only binds to CB7 in a di-protonated
+# form, and is very likely di-protonated in free solution at pH 7.4.
+#
+# Our computed BAR absolute binding energies in kcal/mol are as shown below.
+# The values in parentheses are from applying simple Zwanzig FEP to the
+# same simulation data. According to standard dogma, FEP should be inferior
+# to BAR, and the FEP values are provided just for interest/comparison.
+#
+#   Molecule 1      -12.27     (-12.80)
+#   Molecule 2       -6.46      (-6.76)
+#   Molecule 3       -6.59      (-6.28)
+#   Molecule 4      -11.34     (-10.98)
+#   Molecule 5       -3.37      (-3.34)
+#   Molecule 6       -6.18      (-6.17)
+#   Molecule 7      -10.49     (-10.12)
+#   Molecule 8      -11.84     (-11.60)
+#   Molecule 9      -15.42     (-15.48)
+#   Molecule 10      -5.06      (-4.31)
+#   Molecule 11     -10.48     (-10.43)
+#   Molecule 12     -12.11     (-11.87)
+#   Molecule 13     -13.92     (-13.82)
+#   Molecule 14     -12.41     (-12.26)
+#
+# Provided in a separate file as our "official" predictions are BAR binding
+# free energies relative to Molecule 1; obtained by adding 12.27 kcal/mol to
+# each of the absolute BAR free energy values given above
+#
+###############################################################################
+#

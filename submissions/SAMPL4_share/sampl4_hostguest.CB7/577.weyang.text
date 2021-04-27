@@ -1,0 +1,6 @@
+An orthogonal space tempering derivative free energy sampling method was employed. The ligand molecules were specially treated by removing torsional degree energy barriers along selected bonds at dummy molecule states. The charge neutralization issue as required by PME was handled via a specially designed compensating ion strategy.
+
+We expected this free energy method to efficiently sample molecular conformations, wetting/dewetting, and their couplings. 
+
+Note: Amber-GAFF-AM1-BCC/TIP3P-MOD was used.
+~                                                                       

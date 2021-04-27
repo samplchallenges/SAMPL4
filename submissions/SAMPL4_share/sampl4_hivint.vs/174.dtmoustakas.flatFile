@@ -1,0 +1,15 @@
+RefNo: 174
+Username: dtmoustakas
+Email: demetri.moustakas@alkermes.com
+Anonymous: no
+Method: 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 1 minute
+OS: Linux
+Hardware: Intel Xeon
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/174.dtmoustakas.data
+Datafile Name: SITE_C_CNT-ZAP-2-SUBMISSION.csv
+Methodfile: ../database/sampl4_hivint.vs/174.dtmoustakas.text
+Methodfile Name: method_description_PHDOCK_CNT-ZAP-2.txt
+

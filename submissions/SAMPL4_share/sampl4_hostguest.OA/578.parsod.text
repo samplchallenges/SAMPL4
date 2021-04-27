@@ -1,0 +1,26 @@
+OA/NBB/DFT-D3
+Relative free energies calculated at the DFT-D3 level by using the Non-Boltzmann Bennet method
+
+Results are based on the same free energy simulations as reported in submission OA/FEP/RESP.  For each transformation (1-2, 2-3, 1-4, 1-5, 1-6, 6-7, 6-8, 6-9), for each environment (host+water or water) and for three of the lambda values (0.01, 0.5, and 0.99), 100 snapshots were taken out of the simulations (every 0.4 ns), and their quantum-mechanical interaction energy between the guest and its surrounding were determined using the DFT-D3 method with the TPSS functional and TZVP basis set, while stripping off all water molecules except the 36 (in host+water) or 90 (in water) water molecules being closest to the carboxylate group of the guest molecule.
+
+The free energy change, at the QM level, in each of the transformations,  was determined by the Non-Boltzmann Bennet (NBB) method [1] through a modified version of PYMBAR. The NBB method, which is a generalization of the Bennet Acceptance Ratio (BAR) method, allows that one is sampling the structures at an approximate level, in our case using molecular mechanics with the General Amber Force Field (GAFF) with RESP charges from HF/6-31G* calculations.
+
+Apart from the usual potential energy differences needed for the BAR method, the NBB method only requires the "bias" at each snapshot, i.e. the energy difference between the MM potential and the QM potential. To enable a deeper comparison between the MM and QM potential in the forthcoming paper, the MM energies used the same truncated system as the QM energies. Thus, they don't correspond exactly to the potential used for sampling. To correct for this, we have evaluated the BAR free energies using the truncated MM energies. The difference between these energies and the standard BAR free energies for the full system (reported in a separate submission denoted OA/FEP/RESP, in which details can be found) constitute an estimate of the error done by using the trunacted system to determine the MM energies.
+
+The final free energy of each transformation is therefore determined as
+
+NBB_full = NBB_truncated + BAR_full - BAR_truncated
+
+These relative free energies are then converted to absolute free energies by employing the experimental value for guest 6.
+
+Based on the same data, we also computed "direct" QM corrections to the BAR results, but from our previous experience [2] we trust the NBB results more.
+
+Estimated time consumption (in hours; person/cpu_single_processor) 
+
+Setup 30/0
+Free energy simulations   10/20000
+DFT-D calculations 20/460000
+Total    60/480000
+
+[1] König G, Boresch S.; J Comput Chem. 2011, 32:1082-90
+[2] Genheden S., Ryde, U., Soderhjelm, P.; manuscript in preparation

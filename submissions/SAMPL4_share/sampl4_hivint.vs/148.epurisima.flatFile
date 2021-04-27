@@ -1,0 +1,15 @@
+RefNo: 148
+Username: epurisima
+Email: enrico.purisima@nrc.ca
+Anonymous: no
+Method: 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 1 minute
+OS: Linux
+Hardware: Intel Xeon 2.67 GHz
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/148.epurisima.data
+Datafile Name: Purisima_VS3.txt
+Methodfile: ../database/sampl4_hivint.vs/148.epurisima.text
+Methodfile Name: Readme_VS3.txt
+

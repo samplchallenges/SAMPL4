@@ -1,0 +1,15 @@
+RefNo: 541
+Username: nvsapra
+Email: nvsapra@ucsd.edu
+Anonymous: no
+Method: flexConf qm 3D implSolv multConf
+Personhours: 2 to 5 hours
+CPUhours: 10 hours or more
+OS: Windows
+Hardware: Intel® Core™ i7-2600 3.4GHz
+Predicted RMSE: 3.5
+Datafile: ../database/sampl4_hostguest.CB7/541.nvsapra.data
+Datafile Name: predictions.txt
+Methodfile: ../database/sampl4_hostguest.CB7/541.nvsapra.text
+Methodfile Name: SAMPL4_QMM2_Methods.pdf
+

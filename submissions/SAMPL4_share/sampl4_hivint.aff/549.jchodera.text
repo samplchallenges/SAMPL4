@@ -1,0 +1,30 @@
+Method description
+
+PROJECT TEAM
+
+John D. Chodera <choderaj@mskcc.org> - Memorial Sloan-Kettering Cancer Center
+Michael R. Shirts <michael.shirts@virginia.edu> - University of Virginia
+Kai Wang <kw8cr@virginia.edu> - University of Virginia
+
+METHODOLOGY
+
+The sequence of the target protein was not provided as part of the SAMPL4 materials.
+Correspondence with David Mobley and Tom Peat revealed that the construct was idential to PDB code 3NF8.
+The sequence was extracted from the SEQRES residues of 3NF8 and modeled (using the 'automodel' capability) onto the 3NF8 reference structure provided using default settings.
+A single model was generated and used as input for all subsequent stages.
+
+The protein and ligand systems were set up with LEaP from AmberTools13. 
+The protein was parameterized with the AMBER ff99sb-ildn forcefield using default protonation states and the 'mbondi2' GB radii.
+The ligand was charged by enumerating 10 conformers with OpenEye Omega and assigning AM1-BCC charges to these conformations via OpenEye tools, and the charges were vveraged.
+GAFF parameters were assigned to the ligand.
+No counterions or other components were included.
+
+Free energy calculations were performed with an experimental version of the YANK program [http://github.com/choderalab/yank] using a development version.
+The calculation used a series of alchemical intermediates in a replica-exchange simulation using 2.5 ps of Langevin dynamics between exchange attempts.
+After each exchange attempt, velocities were reassigned from the Maxwell-Boltzmann distribution.  
+A Monte Carlo translation/rotation move was also added to allow the ligand to decorrelate more quickly.
+Data was analyzed with the multistate Bennett acceptance ratio.
+More details of this protocol are in a forthcoming publication (describing the methodology applied to the T4 lysozyme L99A) from this team.
+
+Due to the fact that our computational resources at MSKCC only came online in the last few days of the competition, only a few ns/replica were run by the time of this submission.
+Hence, there is great concern the current results are still unconverged.

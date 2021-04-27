@@ -1,0 +1,14 @@
+﻿1, -0.567, 4.172, 2
+2, -5.281, 4.172, 2
+3, -6.210, 4.172, 2
+4, -5.208, 4.172, 2
+5, -2.213, 4.172, 2
+6, -4.620, 4.172, 2
+7, -8.618, 4.172, 2
+8, -2.928, 4.172, 2
+9, -5.893, 4.172, 2
+#List any experimental data consulted (with references) and how it was used, if at all, here. 
+#
+#Sun, H., Gibb, C. L. D., & Gibb, B. C. (2008). Calorimetric Analysis of the 1:1 Complexes Formed between a Water-soluble Deep-cavity Cavitand, and Cyclic and Acyclic Carboxylic Acids. Supramolecular Chemistry, 20(1-2), 141-147. doi:10.1080/10610270701744302
+#
+#The experimental binding free energies found in this paper were only used to gain a feel for the affinity that might be expected for guests of the octa-acid host.  None of the ligands in this paper were present in the SAMPL4 study, so the purpose was to obtain some type of ballpark estimate on how tightly guests tend to bind this host.

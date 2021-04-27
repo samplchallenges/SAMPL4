@@ -1,0 +1,12 @@
+#Comma delimited predictions file.
+#Format: Compound ID, predicted binding free energy, predicted statistical uncertainty, predcted model uncertainty.
+# b3lyp charges, averaged over md- note correction to original template file's compound name gl5243-106
+AVX17557,-8.8,2.7,5
+AVX17560,-7.4,2,5
+AVX38780,-5.5,1.9,5
+AVX17587,-8.4,6.3,5
+AVX40811,-2.6,2.8,5
+AVX40812,-5.2,2.4,5
+GL5243-104,-9.1,1.8,5
+GL5243-106,-7.1,1.4,5
+#Note any experimental data consulted here.

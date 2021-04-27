@@ -1,0 +1,15 @@
+RefNo: 239
+Username: rgc
+Email: rgc@blur.compbio.ucsf.edu
+Anonymous: no
+Method: flexConf 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 10 seconds
+OS: Linux
+Hardware: mixed cluster 2.6 GHz
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/239.rgc.data
+Datafile Name: sampl4_3nf8_1_rank.txt
+Methodfile: ../database/sampl4_hivint.vs/239.rgc.text
+Methodfile Name: sampl4_3nf8_1_methods.txt
+

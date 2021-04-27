@@ -1,0 +1,15 @@
+RefNo: 143
+Username: egallicchio
+Email: emilio.gallicchio@gmail.com
+Anonymous: no
+Method: flexConf 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: 2.40 GHz Intel quad core E5530 XEON-EMT
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.pose/143.egallicchio.data
+Datafile Name: SAMPL4_Phase2_ALP-DNS-OlsonLab.tar.gz
+Methodfile: ../database/sampl4_hivint.pose/143.egallicchio.text
+Methodfile Name: SAMPL4_Phase2_ALP-DNS-OlsonLab.csv
+

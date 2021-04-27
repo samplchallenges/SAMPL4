@@ -1,0 +1,15 @@
+RefNo: 552
+Username: teoulf
+Email: Ulf.Ryde@teokem.lu.se
+Anonymous: no
+Method: singleConf flexConf qm implSolv
+Personhours: 2 to 5 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: Varying
+Predicted RMSE: 2
+Datafile: ../database/sampl4_hostguest.OA/552.teoulf.data
+Datafile Name: ccsdt.txt
+Methodfile: ../database/sampl4_hostguest.OA/552.teoulf.text
+Methodfile Name: ccsdt-info.txt
+

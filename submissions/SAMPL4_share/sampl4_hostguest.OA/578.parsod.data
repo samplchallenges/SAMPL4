@@ -1,0 +1,19 @@
+# This is OA/NBB/DFT-D3
+# Relative free energies calculated at the DFT-D3 level by using the Non-Boltzmann Bennet method
+#
+# Ulf Ryde, Pär Söderhjelm, et al. Aug. 16, 2013
+#
+#Format: Compound number, predicted standard binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1,-11.68, 2.0 , 3
+2,-15.23, 2.0 , 3 
+3,-11.97, 2.0 , 3 
+4,-17.12, 2.0 , 3 
+5,-11.68, 2.0 , 3 
+6, -5.04, 2.0 , 3 
+7, -8.15, 2.0 , 3 
+8, -6.01, 2.0 , 3 
+9, -4.11, 2.0 , 3 
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+# Absolute energies calculated by using experimental data for guest 6 = -5.04 kcal/mol [H. Sun, C. L. D. Gibb, B. C. Gibb, Supramol. Chem. 20 (2008) 141].

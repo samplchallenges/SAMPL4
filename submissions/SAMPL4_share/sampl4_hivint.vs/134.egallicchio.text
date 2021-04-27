@@ -1,0 +1,55 @@
+SAMPL4 Screening Challenge.
+Prediction set 2: AutoDock Vina docking + Pharmacophore screening
+
+Authors:
+Nan-jie Deng*, Stefano Forli^, Emilio Gallicchio*, Peng He*, Ronald M Levy*, 
+Arthur J. Olson^, Alex L. Perryman^, and Daniel Santiago^
+*Department of Chemistry, Rutgers University, Piscataway, NJ
+^TSRI, La Jolla, CA
+
+Our group produced four predictions using different combinations of approaches.
+1. AutoDock Vina virtual screening
+2. Pharmacophore screening based on docked structures.
+3. Absolute binding free energy calculations starting from docked structures (LEDGF site only).
+4. Consensus scoring based on 1+2+3 above.
+
+This document accompanies prediction set #2 (Autodock Vina + Pharmacophore screening). Calculations were conducted by Stefano Forli, Alex L. Perryman, Daniel N. Santiago, and Arthur J. Olson's at TSRI, La Jolla, CA, USA.
+
+Ligand preparation
+------------------
+The provided database of ligands was found to contain duplicates as follows:
+
+AVX16980_0 is identical to AVX17285_1
+
+AVX17556, AVX17561, and the GL524384 series are in triplicate. Equivalent triplets are:
+ _0 _0 _3
+ _1 _1 _2
+ _2 _2 _1
+ _3 _3 _0
+
+The AVX17557 and AVX17587 series are duplicated (_0 identical to _0,_1 identical to _1, etc.).
+
+AVX62777_0 is an alternate protonation state of AVX101125_0.
+
+The original ligand dataset after removal of duplicates was expanded into alternate protonation states and tautomer states using LigPrep/Epik. Ionization penalties were recorded. The expanded set of 438 ligands was the subject of the screening exercises. In general the protonation/tautomerization state of a compound which led to the best binding score was selected as representative for that compound.
+
+Autodock/Vina screening
+-----------------------
+Virtual screening was performed with "AutoDock Vina" against a subset of the above list that contained the most-predictive crystal structures (i.e., our positive control cross-docking experiments against the full set of PDB ID's listed below indicated that the following were the most useful at resolving the binding site preferences of the control ligands from the PDB: 6 crystal structures of the LEDGF site, 6 crystal structures of the FPB site, and 1 crystal structure of the Y3 site).
+
+These subsets, which included a total of 13 crystal structures, were used as targets for virtual screens of the SAMPL4 compounds, using AutoDock Vina.  Energetic and interaction-based filters were used to harvest SAMPL compounds for visual inspection. The predicted binders were ranked, first, by our confidence in the predicted binding mode; and second, within each set of compounds that had a particular confidence value, the estimated Free Energy of Binding value from Vina was used to determine the particular numerical ranking listed in column 2.
+
+These positive control cross-docking experiments, virtual screens of the SAMPL compounds with Vina, and visual inspections were performed by Alex L. Perryman, Ph.D., and Daniel N. Santiago, Ph.D., in Prof. Arthur J. Olson's lab at TSRI, La Jolla, CA, USA.
+
+The docked poses were also screened using a pharmacophore approach.
+
+PDB's: 3AO1, 3AO2, 3AO3, 3AO4, 3AO5, 3AV9, 3AVA, 3AVB, 3AVC, 3AVF, 3AVG, 3AVH, 3AVJ, 3AVK, 3AVL, 3AVM, 3AVN, 3NF6, 3NF7, 3NF8, 3NF9, 3NFA, 3OVN, 3VQ4, 3VQ5, 3VQ7, 3VQ8, 3VQA, 3VQB, 3VQC, 3VQD, 3VQE, 3VQP, 3VQQ, 3ZCM, 3ZSO, 3ZSQ, 3ZSR, 3ZSV, 3ZSW, 3ZSX, 3ZSY, 3ZSZ, 3ZT0, 3ZT1, 3ZT2, 3ZT3, 3ZT4, 4AH9, 4AHR, 4AHS, 4AHT, 4AHU, 4AHV
+
+BEDAM Absolute Binding Free Energy Calculations
+-----------------------------------------------
+BEDAM calculations were performed for 285 of the 451 ligands in the expanded set for the LEDGF site only. BEDAM calculations were started from the docked pose. Autodock/Vina scores were used to prioritize the binding free energy calculations. Ionization penalties were added to the computed binding free energies. The resulting binding free energy values were used to pick likely binders with a threshold of -4 kcal/mol or better.
+
+Consensus Scoring
+-----------------
+The predictions from Autodock/Vina, the pharmacophore model, and the binding free energies were compared and entries were scored based on the consensus among these three methods. The most likely binders were those for which all methods predicted good binders, etc.
+

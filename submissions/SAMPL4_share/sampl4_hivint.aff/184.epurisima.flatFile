@@ -1,0 +1,15 @@
+RefNo: 184
+Username: epurisima
+Email: enrico.purisima@nrc.ca
+Anonymous: no
+Method: singleConf 3D implSolv
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: Intel Xeon 2.67 GHz
+Predicted RMSE: 2.0
+Datafile: ../database/sampl4_hivint.aff/184.epurisima.data
+Datafile Name: predictions_sie_fish.txt
+Methodfile: ../database/sampl4_hivint.aff/184.epurisima.text
+Methodfile Name: Readme_sie_fish.txt
+

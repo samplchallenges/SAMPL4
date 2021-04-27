@@ -1,0 +1,15 @@
+RefNo: 583
+Username: MichaelShirts
+Email: michael.shirts@virginia.edu
+Anonymous: no
+Method: 2D implSolv md
+Personhours: 1 to 2 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: 3.2GHz quar-core
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.pose/583.MichaelShirts.data
+Datafile Name: SAMPL4_pose_prediction.zip
+Methodfile: ../database/sampl4_hivint.pose/583.MichaelShirts.text
+Methodfile Name: pose_predictions.txt
+

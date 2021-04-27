@@ -1,0 +1,15 @@
+RefNo: 549
+Username: jchodera
+Email: jchodera@gmail.com
+Anonymous: no
+Method: flexConf 3D implSolv multConf md mc
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: GTX-680 GPUs
+Predicted RMSE: 2.5
+Datafile: ../database/sampl4_hivint.aff/549.jchodera.data
+Datafile Name: affinity-predictions-all.txt
+Methodfile: ../database/sampl4_hivint.aff/549.jchodera.text
+Methodfile Name: method-description.txt
+

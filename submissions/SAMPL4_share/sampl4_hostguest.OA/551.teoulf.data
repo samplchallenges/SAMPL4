@@ -1,0 +1,15 @@
+# This is OA/DFT-opt
+# Absolute affinities calculated with DFT-D optimisation
+# Ulf Ryde, et al. Aug. 16, 2013
+#
+1,  -4.19 , 2 , 2
+2,  -8.87 , 2 , 2 
+3,  -8.81 , 2 , 2 
+4,  -9.05 , 2 , 2 
+5,  -8.42 , 2 , 2 
+6,  -3.78 , 2 , 2 
+7, -10.04 , 2 , 2 
+8,  12.50 , 2 , 1 
+9,  -7.34 , 2 , 2 
+# Uncertainties are mere guesses
+# Results of ligand 8 seem to be wrong, but we have not had time to spot the error.

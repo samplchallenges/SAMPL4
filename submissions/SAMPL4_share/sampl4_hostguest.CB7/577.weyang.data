@@ -1,0 +1,27 @@
+#Format: Compound number, predicted relative binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+# Force field: GAFF-AM1-BCC/TIP3P-MOD/AMBER-ION
+# Free energy method: Orthogonal space tempering
+# Institution: Florida State University
+# Names: Lianqing Zheng and Wei Yang
+1,   -10.82  , 0.3 , 4   
+2,   -10.68  , 0.3 , 4   
+3,    -7.24  , 0.3 , 4   
+4,    -8.51  , 0.3 , 4   
+5,   -13.00  , 0.3 , 4   
+6,   -13.32  , 0.3 , 4   
+7,   -14.32  , 0.3 , 4   
+8,   -15.66  , 0.3 , 4   
+9,   -15.30  , 0.3 , 4   
+10,   -9.45  , 0.3 , 4   
+11,  -15.11  , 0.3 , 4   #Racemic mix
+11a, -15.11  , 0.3 , 4  #Isomer 1
+11b, -15.11  , 0.3 , 4  #Isomer 2
+12,  -16.82  , 0.3 , 4  
+13,  -19.40  , 0.3 , 4 
+14,  -18.04  , 0.3 , 4 
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+#The ion-strength-dependent binding difference of compound A2 published in JACS, 2011, 133, 3570.
+#The value was used to calibrate the Amber (Na+) parameter for Na+ binding
+#affinities calculations.

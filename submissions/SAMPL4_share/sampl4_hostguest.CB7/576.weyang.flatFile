@@ -1,0 +1,15 @@
+RefNo: 576
+Username: weyang
+Email: yyang2@fsu.edu
+Anonymous: no
+Method: explSolv md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: FSU HPC
+Predicted RMSE: 1.3
+Datafile: ../database/sampl4_hostguest.CB7/576.weyang.data
+Datafile Name: predictions-set1-cb7-fsu.txt
+Methodfile: ../database/sampl4_hostguest.CB7/576.weyang.text
+Methodfile Name: method-cb7-fsu.txt
+

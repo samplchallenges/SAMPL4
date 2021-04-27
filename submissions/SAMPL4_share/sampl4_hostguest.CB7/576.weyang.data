@@ -1,0 +1,25 @@
+#Format: Compound number, predicted relative binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+# Force field: GAFF-AM1-BCC/TIP3P-MOD/AMBER-ION
+# Free energy method: Orthogonal space tempering
+# Institution: Florida State University
+# Names: Lianqing Zheng and Wei Yang
+1,   -11.27  , 0.3 , 3   
+2,   -11.03  , 0.3 , 3   
+3,    -7.62  , 0.3 , 3   
+4,    -8.96  , 0.3 , 3   
+5,   -13.29  , 0.3 , 3   
+6,   -13.69  , 0.3 , 3   
+7,   -14.60  , 0.3 , 3   
+8,   -16.00  , 0.3 , 3   
+9,   -15.69  , 0.3 , 3   
+10,   -9.90  , 0.3 , 3   
+11,  -15.47  , 0.3 , 3   #Racemic mix
+11a, -15.47  , 0.3 , 3  #Isomer 1
+11b, -15.47  , 0.3 , 3  #Isomer 2
+12,  -17.22  , 0.3 , 3  
+13,  -19.75  , 0.3 , 3 
+14,  -18.34  , 0.3 , 3 
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+#No experimental data was used.

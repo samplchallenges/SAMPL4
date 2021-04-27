@@ -1,0 +1,15 @@
+RefNo: 578
+Username: parsod
+Email: par.soderhjelm@teokem.lu.se
+Anonymous: no
+Method: explSolv qm 3D multConf md
+Personhours: 5 to 10 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: AMD 6220 @ 3.0 GHz
+Predicted RMSE: 2.0
+Datafile: ../database/sampl4_hostguest.OA/578.parsod.data
+Datafile Name: nbb.txt
+Methodfile: ../database/sampl4_hostguest.OA/578.parsod.text
+Methodfile Name: nbb-info.txt
+

@@ -1,0 +1,15 @@
+RefNo: 547
+Username: biorga
+Email: bogdan.iorga@cnrs.fr
+Anonymous: no
+Method: flexConf 3D implSolv multConf
+Personhours: 1 to 2 hours
+CPUhours: 1 hour
+OS: Linux
+Hardware: diverse
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/547.biorga.data
+Datafile Name: answer2_gold_chemscore.txt
+Methodfile: ../database/sampl4_hivint.vs/547.biorga.text
+Methodfile Name: protocol_vs.txt
+

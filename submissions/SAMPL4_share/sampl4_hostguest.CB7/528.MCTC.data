@@ -1,0 +1,39 @@
+#Format: Compound number, predicted relative binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1,   0.0,  1.0,  3
+2,  -1.0,  1.0,  4
+3,  +2.6,  1.0,  3
+4,  +2.1,  1.0,  3
+5,  +6.0,  1.0,  3
+6,  +7.5,  1.0,  3
+7,  -0.2,  1.0,  4
+8,  -2.8,  1.0,  4
+9,  -3.9,  1.0,  4
+10,  +5.4,  1.0, 3
+11,  -3.1,  1.0, 3   #Racemic mix
+11a, +1.9,  1.0, 4   #Isomer 1
+11b, -3.1,  1.0, 4   #Isomer 2
+12,  -6.9,  1.0, 4 
+13,  -6.4,  1.0, 4
+14,  -1.1,  1.0, 4
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+#
+#We did not use any expermimental data.
+# 
+#Just in case you could use it we give here also the absolute Delta G_a values for each compound.
+# 1,  -10.9
+# 2,  -11.8
+# 3,  -8.3
+# 4,  -8.8
+# 5,  -4.9
+# 6,  -3.4
+# 7,  -11.1
+# 8,  -13.7
+# 9,  -15.7
+# 10, -5.5
+# 11a, -9.0
+# 11b, -14.0
+# 12, -17.8
+# 13, -17.3
+# 14, -11.9

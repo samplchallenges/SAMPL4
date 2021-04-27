@@ -1,0 +1,18 @@
+OA/DFT-opt
+Absolute affinities estimated by DFT-D3 methods.
+Single geometry.
+Complex, host, and guest freely optimised in COSMO (eps=80) solvent with TPSS-D2/def2-SV(P).
+Single-point energy at TPSS/def2-QZVP' (discarded g and f functions) level; no counter-poise correction.
+Dispersion energy with DFT-D3 (TPSS), Becke-Johnson damping, and three-body terms (dftd3 program).
+COSMO-RS solvation energies based on TPSS/TZVP single-point calculations in both vacuum and in esp=inf.
+Entropy, ZPE, and thermal corrections from frequencies calculated at the MM (GAFF/RESP) level, with using the low-lying free-rotor approach; unscaled frequencies. Rotational and translational correction from the DFT geometry.
+Final energies are calculated using the complex geometry also for the hosts and guests. The relaxation energy for the ligand (at TPSS level) is added, but not for the host.
+Guest 8 has diverging results (both entropy correction and solvation energy, but we have not had time to spot the error).
+Turbomole 6.4 software.
+Uncertainties are mere guesses.
+
+Estimated time consumption (in hours; person/cpu_single_processor) for whole project
+Optimisation including setup 10/7200
+Single-point calculations 10/1200
+Frequencies 3/1
+Total 23/8401

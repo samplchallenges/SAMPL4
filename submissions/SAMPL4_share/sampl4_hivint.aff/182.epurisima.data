@@ -1,0 +1,14 @@
+#Comma delimited predictions file. 
+#Format: Compound ID, predicted binding free energy, predicted statistical uncertainty, predcted model uncertainty.
+#Here we distinguish between statistical uncertainty and model uncertainty, as one may (for example) do force-field based calculations which yield very high-precision free energy estimates, given the particular force field. However, one may have considerable less confidence that the model uncertainty is anywhere near this low (uncertainty in ligand partial charges or other parameters, or expected quality of the force field, may substantially increase expected errors). Statistical uncertainties are expected to be reported typically based on some form of error analysis, while model uncertainty may be an empirical or qualitative estimate, such as based on past experience for similar compounds.
+#We anticipate scoring in at least two ways, one based on simple accuracy, and another based on uncertainty-weighted accuracy, where inaccurate results with low uncertainties are penalized the most, and accurate results with low uncertainties are penalized the most. High uncertainty results are rewarded/penalized less.
+#A section of comments at the end of the file should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+AVX17557,-8.53,0.5,2.0
+AVX17560,-7.96,0.5,2.0
+AVX17587,-8.72,0.5,2.0
+AVX38780,-9.26,0.5,2.0
+AVX40811,-7.85,0.5,2.0
+AVX40812,-8.51,0.5,2.0
+GL5243-104,-7.99,0.5,2.0
+GL5243-106,-8.08,0.5,2.0
+# No experimental data consulted.

@@ -1,0 +1,114 @@
+Description of the general approach:
+
+The equilibrium association free enthalpies Delta G_a for a host-guest system in 
+solution are calculated by ab initio quantum chemical methods. The theoretical 
+approach employs a (nondynamic) single-structure model and has been successfully 
+applied before to several different host-guest-systems.[1]
+
+The free enthalpies of association for a host and guest molecule in a given solvent X 
+at a certain temperature T is computed as:
+  Delta G_a = Delta E + Delta G^T_{RRHO} + Delta delta G_{solv}^T(X)
+The solvent in these cases is of course water and the temperature was assumed to be 
+298.15 K. 
+Delta E denotes the electronic gas phase interaction energy of the fully 
+optimized host and guest molecules and is calculated by dispersion corrected density 
+functional theory (DFT-D3) [2,3] with extended basis sets (triple-zeta and
+quadruple-zeta quality).
+The solvation free enthalpy Delta G_{solv}^T(X) is calculated for each gas-phase 
+species by employing the COSMO-RS continuum solvation model[4,5]. 
+G^T_{RRHO} is the sum of thermal corrections from energy to free enthalpy within a 
+rigid-rotor-harmonic-oscillator approximation for each molecule in the gas phase at 
+a given temperature T, including the zero-point vibrational energy. For obtaining the 
+vibrational entropy from harmonic frequencies, low-lying modes below 100 cm$^{-1} are 
+treated within a rigid-rotor model in order to reduce their error in the harmonic 
+approximation, for details see ref. [1]. All harmonic frequencies were calculated
+with our recently developed HF-3c method [6]. HF-3c is a fast method based on a 
+HF/minimal(small) basis set calculation with three atom-pairwise correction terms 
+(D3, geometrical counterpoise correction (gCP) and a short-range term).
+To determine Delta G^T_{RRHO} the vibrational frequencies were scaled with a factor 
+of 0.86. 
+
+HF-3c was also used to pre-optimize several complexes with possible binding situations. 
+The complexes with the lowest association free enthalpy where then re-optimized on the 
+TPSS[7]-D3(BJ)[2,3]/def2-TZVP[8] level of theory. We also included the 
+three-body-dispersion[2] which amounts to 2-3 kcal/mol for this type of systems. 
+
+
+Used programs and technical details:
+
+All HF/MINIX and TPSS-D3/def2-TZVP calculations were performed using TURBOMOLE 6.4.[10] 
+In case of the DFT calculations the resolution-of-identity (RI) approximation for the 
+Coulomb integrals [11] was applied using matching default auxiliary basis sets [12]. 
+The numerical quadrature grid m4 was employed for integration of the exchange-correlation 
+contribution. In case of HF-3c the 3c-terms to energy and analytical gradient were 
+calculated by a new code which basically merges the freely available programs dftd3 
+and gCP [13]. Computations of harmonic vibrational frequencies were performed 
+analytically  using the aoforce code from TURBOMOLE. The 3c-contributions to the Hessian 
+are computed numerically by two-point finite differences of analytical gradients. 
+The three-body contributions to the dispersion energy were calculated using the dftd3 program. 
+The COSMO-RS model [4,5] was used as implemented in COSMOtherm [14]. To obtain the 
+solvation free enthalpies single point calculations on the default BP86[15,16]/def-TZVP 
+level of theory were performed on the TPSS optimized geometries.
+
+
+Specific features in the calculations for the octa acid systems:
+
+The octa-acid host is used in its fully protonated and thus neutral form, all guests 
+are singly negatively charged.
+Various binding modes are sampled with HF-3c in the following way: The guest is 
+rotated from 0 to 180 degrees (polar angle) in seven and from 0 to 45 degrees (azimuth
+angle) in four steps inside the host to generate 28 starting structures per guest for 
+full geometry optimization with HF-3c. Harmonic frequency calculations on the optimized
+structures provide internal (gas-phase) entropies. For determination of the rotational
+part of the entropy, a four-fold symmetry of the host (C_4) and a two-fold symmetry of 
+guests 1 to 4 (C_2) is assumed. Guests 5 to 9 and all complexes have no symmetry (C_1).
+
+The reference structure of the uncomplexed host is obtained by reoptimization starting 
+from its geometry in the complex in order to eliminate the influence of intramolecular
+hydrogen bonds at the outside of the host on the estimated free enthalpies of binding 
+Delta G_a within the single-structure model. Preliminary estimates of Delta G_a
+are obtained by the COSMO-RS continuum solvation model based on DFT (BP86/ def-TZVP) 
+single point energy calculations and TPSS/def2-TZVP single point association energies. 
+Host-guest structures with most negative Delta G_a are then fully optimized with 
+TPSS/def2-TZVP + COSMO (epsilon=78) to obtain structures that account for desolvation 
+properly.
+
+The final Delta G_a values are obtained by single-point calculations with TPSS/def2-TZVP, 
+the three-body dispersion contribution to the association energy, and redone COSMO-RS 
+calculations on the TPSS structures. Finally, a neutral to ionic host correction
+is added by TPSS/def2-TZVP + COSMO (epsilon=78) single-point energy calculations on 
+a host where the protons of the four bezoid acid carboxylate groups of the host are replaced
+by Na^+ ions in a relative geometry derived from a fully HF-3c optimized ionic structure 
+of the host with twelve additional explicit water molecules in a Delta Delta E sense. 
+The average of these nine Delta Delta E values was then added to all Delta G_a values. 
+
+In the most favourable complexes, the polar head group of the guest is located at the 
+portal of the hydrophobic pocket, and the host is minimally deformed. For guest 8, no 
+negative Delta G_a is obtained.
+
+
+References:
+
+[1] S. Grimme, Chem. Eur. J. 2012, 18, 9955.
+[2] S. Grimme, J. Antony, S. Ehrlich, H. Krieg, J. Chem. Phys. 2010, 132, 154104.
+[3] S. Grimme, S. Ehrlich, L. Goerigk, J. Comput. Chem. 2011, 32, 1456.
+[4] A. Klamt, J. Chem. Phys. 1995, 99, 2224.
+[5] F. Eckert, A. Klamt, AIChE J. 2002, 48, 369.
+[6] R. Sure, S. Grimme, J. Comput. Chem. 2013, 34, 1672.
+[7] J. Tao, J. P. Perdew, V. N. Staroverov, G. E. Scuseria, Phys. Rev. Lett. 2003, 91, 146401.
+[8] Y. Zhao, D. G. Truhlar, J. Phys. Chem. A 2005, 109, 5656.
+[9] A. Klamt, G. J. Schüürmann, Chem. Soc. Perkin Trans. 1993, 2, 799.
+[10] TURBOMOLE 6.4: R. Ahlrichs, M. K. Armbruster, M. Bäar, H.–P. Baron, R. Bauernschmitt, N. Crawford, 
+P. Deglmann, M. Ehrig, K. Eichkorn, S. Elliott, F. Furche, F. Haase, M. Häser, C. Hättig, A. Hellweg, 
+H. Horn, C.Huber, U. Huniar, M. Kattannek, C. Kölmel, M. Kollwitz, K. May, P. Nava,C. Ochsenfeld, H. Öhm, 
+H. Patzelt, D. Rappoport, O. Rubner, A. Schäfer, U. Schneider, M. Sierka, O. Treutler, B. Unterreiner, 
+M. von Arnim, F. Weigend, P. Weis and H. Weiss. Universitäat Karlsruhe 2012. See also:
+http://www.turbomole.com.
+[11] K. Eichkorn, O. Treutler, H. Öhm, M. Häser, R. Ahlrichs, Chem. Phys. Lett. 1995, 242, 652.
+[12] F. Weigend, Phys. Chem. Chem. Phys. 2006, 8, 1057.
+[13] Available at: http://www.thch.uni-bonn.de/. Last accessed August 7, 2013.
+[14] F. Eckert, A. Klamt, COSMOtherm, Version C2.1, Release 01.11; COSMOlogic GmbH & Co. KG, Leverkusen (Germany), 2010.
+[15] J. P. Perdew, Phys. Rev. B 1986, 33, 8822.
+[16] A. D. Becke, Phys. Rev. A 1988, 38, 3098.
+
+

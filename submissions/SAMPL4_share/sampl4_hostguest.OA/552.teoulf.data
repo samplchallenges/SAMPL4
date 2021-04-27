@@ -1,0 +1,20 @@
+# This is OA/DFT-opt/LCCSD(T)
+# Relative affinities calculated with LCCSD(T) extrapolation upon DFT-D3 optimised structures
+# Ulf Ryde, Pär Söderhjelm, Milica Andrejic, et al. Aug. 16, 2013
+#
+#Format: Compound number, predicted standard binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1, -9.45 , 1.5 , 2
+2,-13.85 , 1.5 , 2 
+3,-14.39 , 1.5 , 2 
+4,-14.87 , 1.5 , 2 
+5,-16.29 , 1.5 , 2 
+6, -5.04 , 1.5 , 2 
+7,-13.36 , 1.5 , 2 
+8,  6.75 , 1.5 , 1 
+9, -9.10 , 1.5 , 2 
+# Uncertainties are mere guesses
+# Results of ligand 8 seem to be wrong, but we have not had time to spot the error.
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+# Absolute energies calculated by using experimental data for guest 6 = -5.04 kcal/mol [H. Sun, C. L. D. Gibb, B. C. Gibb, Supramol. Chem. 20 (2008) 141].

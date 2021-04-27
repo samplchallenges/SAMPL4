@@ -1,0 +1,15 @@
+RefNo: 528
+Username: MCTC
+Email: rebecca.sure@thch.uni-bonn.de
+Anonymous: no
+Method: singleConf qm 3D implSolv
+Personhours: Greater than 10 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: 2.4GHz Intel Xeon (8 CPUs per node)
+Predicted RMSE: 2-3
+Datafile: ../database/sampl4_hostguest.CB7/528.MCTC.data
+Datafile Name: predictions.txt
+Methodfile: ../database/sampl4_hostguest.CB7/528.MCTC.text
+Methodfile Name: comp_details_cb7.txt
+

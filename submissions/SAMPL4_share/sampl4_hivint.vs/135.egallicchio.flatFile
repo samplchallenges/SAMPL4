@@ -1,0 +1,15 @@
+RefNo: 135
+Username: egallicchio
+Email: emilio.gallicchio@gmail.com
+Anonymous: no 
+Method: 3D implSolv multConf md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: Various
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/135.egallicchio.data
+Datafile Name: SAMPL4_Phase1_FreeEnergy.csv
+Methodfile: ../database/sampl4_hivint.vs/135.egallicchio.text
+Methodfile Name: SAMPL4_narrative.txt
+

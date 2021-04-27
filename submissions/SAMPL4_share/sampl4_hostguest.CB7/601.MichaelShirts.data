@@ -1,0 +1,21 @@
+1, 0.000, 1.506, 2  
+2, 6.088, 1.506, 2   
+3, 8.586, 1.506, 2   
+4, 0.637, 1.506, 2   
+5, 10.780, 1.506, 2   
+6, 3.705, 1.506, 2   
+7, 3.125, 1.506, 2   
+8, 2.781, 1.506, 2   
+9, 0.173, 1.506, 2   
+10, 10.312, 1.506, 2   
+11, 1.685, 1.506, 2 #Racemic mix 
+11a, 2.580, 1.506, 2   
+11b, 1.343, 1.506, 2   
+12, -1.981, 1.506, 2   
+13, -2.086, 1.506, 2   
+14, -0.596, 1.506, 2   
+#List any experimental data consulted (with references) and how it was used, if at all, here. 
+#Moghaddam, S., Yang, C., Rekharsky, M., Ko, Y. H., Kim, K., Inoue, Y., & Gilson, M. K. (2011). New ultrahigh affinity host-guest complexes of cucurbit[7]uril with bicyclo[2.2.2]octane and adamantane guests: thermodynamic analysis and evaluation of M2 affinity calculations. Journal of the American Chemical Society, 133(10), 357081. doi:10.1021/ja109904u
+#Moghaddam, S., Inoue, Y., & Gilson, M. K. (2009). Host-guest complexes with protein-ligand-like affinities: computational analysis and design. Journal of the American Chemical Society, 131(11), 401221. doi:10.1021/ja808175m
+#Wyman, I. W., & Macartney, D. H. (2008). Cucurbit[7]uril host-guest complexes with small polar organic guests in aqueous solution. Organic & biomolecular chemistry, 6(10), 1796801. doi:10.1039/b801650j
+#Selective data in these papers were used to construct a training set of CB7 ligands for comparing simulated and experimentally determined binding affinities.  Free energies of binding were computed for guests B2, B5, A1, A2, A3, and A5 in Moghaddam, 2011, and were directly compared to the binding free energies found there.  All ligands found in Wyman, 2008 were also used in the training set, with simulated binding free energies compared to those calculated from the provided equilibrium constants.  To generate mol2 files for all of these ligands we used the "Online SMILES Translator and Structure File Generator" freely available from NCI at the following website: http://cactus.nci.nih.gov/translate/.  Some ligands, especially those found in the Moghaddam papers, are extremely similar to those in SAMPL4, however no ligands used in the training set were the same as those in the competition.  The simulated binding free energies of the training set were fit to the experimental values using linear least squares regression of separate coefficients for the Van der Waals and coulombic contributions to the free energy change.  These coefficients were used to correct the free energies shown.  The RMSE of the corrected training set from the experimental values is given as the error.

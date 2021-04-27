@@ -1,0 +1,15 @@
+RefNo: 133
+Username: egallicchio
+Email: emilio.gallicchio@gmail.com
+Anonymous: no
+Method: singleConf flexConf 3D implSolv
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: Various
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/133.egallicchio.data
+Datafile Name: SAMPL4_Phase1_ALPerryman_DNSantiago_AJOlson.csv
+Methodfile: ../database/sampl4_hivint.vs/133.egallicchio.text
+Methodfile Name: SAMPL4_narrative.txt
+

@@ -1,0 +1,28 @@
+OA/FEP/RESP
+Relative affinities calculated with free-energy perturbation.
+Host-guest complexes simulated in explicit TIP3P solvent.
+GAFF force field used for the host and the guest, using RESP charges (based on HF/6-31G* QM calculations and ESP points sampled with the Merz-Kollman scheme), obtained by antechamber.
+~5000 atoms for host-guest, ~1600 atoms for host.
+Periodic-boundary NPT calculations using truncated octahedral boxes and electrostatic interactions treated by particle-mesh Ewald summation.
+T=300K, p=1 atm.
+Cut-off for non-bonded = 8 Å.
+Both host and guest fully charged (total charge -9).
+Amber 11 software.
+Time step 2 fs (H atoms constrained with SHAKE).
+2 ns equilibration and 4 ns production for each lambda value.
+Energies evaluated every 10 ps (400 in total).
+Free energies calculated with Bennett acceptance ratio, evaluated by PYMBAR.
+13 lambda values (0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.99).
+Dual-topology. Electrostatics and van der Waals interactions changed simultaneously, using soft-core potentials for both interactions for disappearing atoms.
+10 independent simulations (with different starting velocities).
+Studied relative energies: 2$B"*(B1, 3$B"*(B2, 4$B"*(B1, 5$B"*(B1, 6$B"*(B1, 7$B"*(B6, 6$B"*(B8, and 9$B"*(B6.
+Absolute energies calculated by using experimental data for guest 6 = -5.04 kcal/mol [H. Sun, C. L. D. Gibb, B. C. Gibb, Supramol. Chem. 20 (2008) 141].
+Estimated standard error of experimental data: 0.25 kcal/mol.
+Standard errors of the relative affinities: 0.01, 0.02, 0.02, 0.03, 0.08, 0.04, 0.18, 0.16 kcal/mol.
+
+Estimated time consumption (in hours; person/cpu_single_processor) for whole project
+Force field 48/36
+MD simulations 9/432
+FEP calculations 8/45760 (= 8 perturb * 10 independent * 8 cpus * 13 lambda * (15 water + 40 prot))
+Evaluation 8/1
+Total 73/46229

@@ -1,0 +1,10 @@
+Compound 	 Smiles 
+1 	 c1ccc(cc1)C(=O)[O-]
+2 	 Cc1ccc(cc1)C(=O)[O-]
+3 	 CCc1ccc(cc1)C(=O)[O-]
+4 	 c1cc(ccc1C(=O)[O-])Cl
+5 	 c1cc(cc(c1)Cl)C(=O)[O-]
+6 	 C1CCC(CC1)C(=O)[O-]
+7 	 C[C@H]1CC[C@@H](CC1)C(=O)[O-]
+8 	 C1CCC(C1)C(=O)[O-]
+9 	 C1CCCC(CC1)C(=O)[O-]

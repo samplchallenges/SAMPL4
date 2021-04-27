@@ -1,0 +1,15 @@
+RefNo: 164
+Username: zhangiru
+Email: kamzhang@riken.jp
+Anonymous: no
+Method: 2D 3D multConf
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: various : dell laptpo E6410 and octa-core desktop
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/164.zhangiru.data
+Datafile Name: sampl4_act_onlinesubmission.txt
+Methodfile: ../database/sampl4_hivint.vs/164.zhangiru.text
+Methodfile Name: sampl4_act_onlinesubmission_methods.txt
+

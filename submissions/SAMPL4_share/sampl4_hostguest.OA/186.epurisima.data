@@ -1,0 +1,12 @@
+#Format: Compound number, predicted standard binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1,-4.34,2.0,3
+2,-5.02,2.0,3
+3,-5.20,2.0,3
+4,-4.99,2.0,3
+5,-4.56,2.0,3
+6,-4.43,2.0,3
+7,-5.41,2.0,3
+8,-4.12,2.0,3
+9,-4.70,2.0,3

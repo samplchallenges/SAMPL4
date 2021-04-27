@@ -1,0 +1,15 @@
+RefNo: 525
+Username: jiafu
+Email: jfu002@ucr.edu
+Anonymous: no
+Method: flexConf 3D implSolv multConf
+Personhours: Less than 1 hour
+CPUhours: 10 minutes
+OS: Linux
+Hardware: 3.20 GHz Intel E3-1230
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.pose/525.jiafu.data
+Datafile Name: Dock_result.mol2
+Methodfile: ../database/sampl4_hivint.pose/525.jiafu.text
+Methodfile Name: screening_Sampl4_details.docx
+

@@ -29,9 +29,9 @@ The papers covering the results of the challenge were published in two special i
 ## Files
 Input files provided to participants:
 
-* [host-guest](https://github.com/samplchallenges/SAMPL4/host-guest)
-* [hydration free energy](https://github.com/samplchallenges/SAMPL4/hydration_free_energy)
-* [protein-ligand binding](https://github.com/samplchallenges/SAMPL4/protein-ligand_binding)
+* [host-guest](host-guest)
+* [hydration free energy](hydration_free_energy)
+* [protein-ligand binding](protein-ligand_binding)
 
 ## LICENSE
 

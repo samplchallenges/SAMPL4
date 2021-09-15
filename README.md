@@ -1,5 +1,6 @@
 # SAMPL4
 Archived input files from the SAMPL4 challenge
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5508284.svg)](https://doi.org/10.5281/zenodo.5508284)
 
 ## Challenge overview
 SAMPL4 was organized by David L. Mobley and collaborators.

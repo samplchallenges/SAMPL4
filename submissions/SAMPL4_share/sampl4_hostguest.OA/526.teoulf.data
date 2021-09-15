@@ -1,0 +1,18 @@
+# This is OA/FEP/RESP
+# Relative affinities calculated with free-energy perturbation using RESP charges.
+# Ulf Ryde, et al. Aug. 16, 2013
+#
+#Format: Compound number, predicted standard binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+#This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1, -1.90 , 0.25 , 4
+2, -5.71 , 0.25 , 4 
+3, -5.95 , 0.25 , 4 
+4, -6.45 , 0.25 , 4 
+5, -3.36 , 0.25 , 4 
+6, -5.04 , 0.24 , 4 
+7, -8.71 , 0.24 , 4 
+8, -3.25 , 0.30 , 4 
+9, -6.35 , 0.29 , 4 
+#List any experimental data consulted (with references) and how it was used, if at all, here.  
+# Absolute energies calculated by using experimental data for guest 6 = -5.04 kcal/mol [H. Sun, C. L. D. Gibb, B. C. Gibb, Supramol. Chem. 20 (2008) 141].

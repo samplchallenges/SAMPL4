@@ -1,0 +1,7 @@
+#Format: Compound identifier, rank, binding prediction (yes/no), confidence (1=low confidence, 5=very confident)
+#This is a commma-delimited file format. Lines preceded by a "#" will be treated as comments.
+#A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+#Example: 
+AVX38670_0, 1, yes, 3
+AVX38670_1, 2, yes, 3
+#List any experimental data consulted (with references) and how it was used, if at all, here.

@@ -1,0 +1,131 @@
+182, epurisima enrico.purisima@nrc.ca
+183, epurisima enrico.purisima@nrc.ca
+184, epurisima enrico.purisima@nrc.ca
+190, kimasharp sharpk@mail.med.upenn.edu
+191, kimasharp sharpk@mail.med.upenn.edu
+199, Coleman/UCSF/DOCK
+201, Coleman/UCSF/DOCK
+233, Coleman/UCSF/DOCK
+234, Coleman/UCSF/DOCK
+235, Coleman/UCSF/DOCK
+236, Coleman/UCSF/DOCK
+237, Coleman/UCSF/DOCK
+549, jchodera jchodera@gmail.com
+1000, jiafu jfu002@ucr.edu
+143, Olson group
+154, epurisima enrico.purisima@nrc.ca
+155, epurisima enrico.purisima@nrc.ca
+156, epurisima enrico.purisima@nrc.ca
+177, zhangiru kamzhang@riken.jp
+535, Coleman/UCSF/DOCK
+536, Coleman/UCSF/DOCK
+537, Coleman/UCSF/DOCK
+538, Coleman/UCSF/DOCK
+539, Coleman/UCSF/DOCK
+540, Coleman/UCSF/DOCK
+583, MichaelShirts michael.shirts@virginia.edu
+133, Olson group
+134, Olson group
+135, Gallicchio/Levy/Olson group
+136, Gallicchio/Levy/Olson group
+146, epurisima enrico.purisima@nrc.ca
+147, epurisima enrico.purisima@nrc.ca
+148, epurisima enrico.purisima@nrc.ca
+157, hwangseo hspark@sejong.ac.kr
+164, zhangiru kamzhang@riken.jp
+171, dtmoustakas demetri.moustakas@alkermes.com
+172, dtmoustakas demetri.moustakas@alkermes.com
+173, dtmoustakas demetri.moustakas@alkermes.com
+174, dtmoustakas demetri.moustakas@alkermes.com
+175, dtmoustakas demetri.moustakas@alkermes.com
+176, dtmoustakas demetri.moustakas@alkermes.com
+198, Coleman/UCSF/DOCK
+200, Coleman/UCSF/DOCK
+238, Coleman/UCSF/DOCK
+239, Coleman/UCSF/DOCK
+240, Coleman/UCSF/DOCK
+241, Coleman/UCSF/DOCK
+242, Coleman/UCSF/DOCK
+524, jiafu jfu002@ucr.edu
+546, biorga bogdan.iorga@cnrs.fr
+547, biorga bogdan.iorga@cnrs.fr
+187, epurisima enrico.purisima@nrc.ca
+188, epurisima enrico.purisima@nrc.ca
+194, Coleman/UCSF/DOCK
+528, Grimme group
+541, nvsapra nvsapra@ucsd.edu
+550, gilsonlab hmuddana@gmail.com
+553, u0451437 jordan.k.meadows@gmail.com
+554, u0451437 jordan.k.meadows@gmail.com
+555, u0451437 jordan.k.meadows@gmail.com
+556, u0451437 jordan.k.meadows@gmail.com
+557, afenley afenley@ucsd.edu
+558, afenley afenley@ucsd.edu
+559, afenley afenley@ucsd.edu
+560, ponder ponder@dasher.wustl.edu
+571, u0451437 jordan.k.meadows@gmail.com
+574, u0451437 jordan.k.meadows@gmail.com
+576, weyang yyang2@fsu.edu
+577, weyang yyang2@fsu.edu
+579, parsod par.soderhjelm@teokem.lu.se
+584, ponder ponder@dasher.wustl.edu
+600, MichaelShirts michael.shirts@virginia.edu
+601, MichaelShirts michael.shirts@virginia.edu
+140, egallicchio emilio.gallicchio@gmail.com
+170, Ryde group
+185, epurisima enrico.purisima@nrc.ca
+186, epurisima enrico.purisima@nrc.ca
+192, Coleman/UCSF/DOCK
+193, Coleman/UCSF/DOCK
+195, Coleman/UCSF/DOCK
+526, Ryde group
+527, Grimme group
+551, Ryde group
+552, Ryde group
+578, parsod par.soderhjelm@teokem.lu.se
+602, MichaelShirts michael.shirts@virginia.edu
+137, Jon Essex lab
+138, Jon Essex lab
+141, COSMOlogic Lab
+145, lhs@sampl4 l.h.sandberg@dundee.ac.uk
+149, hwangseo hspark@sejong.ac.kr
+152, kimasharp sharpk@mail.med.upenn.edu
+153, kimasharp sharpk@mail.med.upenn.edu
+158, Coleman/UCSF/DOCK
+166, JoakimJ jambeck@me.com
+167, JoakimJ jambeck@me.com
+168, JoakimJ jambeck@me.com
+169, JoakimJ jambeck@me.com
+178, Fennell, Li, & Dill
+179, Fennell, Li, & Dill
+180, Fennell, Li, & Dill
+181, Fennell, Li, & Dill
+189, epurisima enrico.purisima@nrc.ca
+196, Coleman/UCSF/DOCK
+197, Coleman/UCSF/DOCK
+529, aemark a.e.mark@uq.edu.au
+530, Brooks lab, NHLBI, NIH
+531, Brooks lab, NHLBI, NIH
+532, Brooks lab, NHLBI, NIH
+533, Brooks lab, NHLBI, NIH
+534, Brooks lab, NHLBI, NIH
+542, gilsonlab hmuddana@gmail.com
+543, gilsonlab hmuddana@gmail.com
+544, gilsonlab hmuddana@gmail.com
+545, gilsonlab hmuddana@gmail.com
+548, Wu Lab
+561, ben ben@eyesopen.com
+562, biorga bogdan.iorga@cnrs.fr
+563, biorga bogdan.iorga@cnrs.fr
+564, biorga bogdan.iorga@cnrs.fr
+565, geballe geballem@gmail.com
+566, geballe geballem@gmail.com
+567, geballe geballem@gmail.com
+568, geballe geballem@gmail.com
+569, geballe geballem@gmail.com
+570, geballe geballem@gmail.com
+572, geballe geballem@gmail.com
+573, geballe geballem@gmail.com
+575, weyang yyang2@fsu.edu
+580, parsod par.soderhjelm@teokem.lu.se
+582, parsod par.soderhjelm@teokem.lu.se

@@ -1,0 +1,15 @@
+RefNo: 579
+Username: parsod
+Email: par.soderhjelm@teokem.lu.se
+Anonymous: no
+Method: explSolv flexConf 3D md
+Personhours: Greater than 10 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: unknown
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_hostguest.CB7/579.parsod.data
+Datafile Name: metadyn.txt
+Methodfile: ../database/sampl4_hostguest.CB7/579.parsod.text
+Methodfile Name: metadyn-info.txt
+

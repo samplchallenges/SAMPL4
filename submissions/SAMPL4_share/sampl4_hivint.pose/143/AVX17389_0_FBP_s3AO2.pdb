@@ -1,0 +1,17 @@
+HETATM 2557  C1  MOL d   0       8.693 -22.362  -3.469  0.00  0.00      AVX- C
+HETATM 2558  C2  MOL d   0       7.403 -22.057  -3.000  0.00  0.00      AVX- C
+HETATM 2559  C3  MOL d   0       9.390 -23.465  -2.967  0.00  0.00      AVX- C
+HETATM 2560  C4  MOL d   0       6.794 -22.850  -2.025  0.00  0.00      AVX- C
+HETATM 2561  C5  MOL d   0       8.767 -24.231  -2.004  0.00  0.00      AVX- C
+HETATM 2562  C6  MOL d   0       7.504 -23.932  -1.546  0.00  0.00      AVX- C
+HETATM 2563  C9  MOL d   0       8.211 -25.698  -0.514  0.00  0.00      AVX- C
+HETATM 2564  O4  MOL d   0       9.287 -25.336  -1.402  0.00  0.00      AVX- O
+HETATM 2565  O5  MOL d   0       7.076 -24.813  -0.599  0.00  0.00      AVX- O
+HETATM 2566  C7  MOL d   0       5.461 -22.535  -1.539  0.00  0.00      AVX- C
+HETATM 2567  N1  MOL d   0       4.938 -23.360  -0.536  0.00  0.00      AVX- N
+HETATM 2568  O2  MOL d   0       4.821 -21.584  -2.023  0.00  0.00      AVX- O
+HETATM 2569  C10 MOL d   0       3.620 -23.190   0.032  0.00  0.00      AVX- C
+HETATM 2570  C8  MOL d   0       3.742 -23.582   1.495  0.00  0.00      AVX- C
+HETATM 2571  O1  MOL d   0       2.818 -23.156   2.245  0.00  0.00      AVX- O
+HETATM 2572  O3  MOL d   0       4.747 -24.294   1.778  0.00  0.00      AVX- O
+HETATM 2573  H8  MOL d   0       5.477 -24.159  -0.221  0.00  0.00      AVX- H

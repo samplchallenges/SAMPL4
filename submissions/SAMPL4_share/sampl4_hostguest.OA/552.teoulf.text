@@ -1,0 +1,30 @@
+OA/DFT-opt/LCCSD(T)
+Relative affinities estimated by DFT-D3 methods corrected with CCSD(T) 
+
+The values obtained by the DFT-D method (see submission 551) were corrected to CCSD(T) level by the following procedure. The same structures were used, optimised by DFT-D3/COSMO(eps=80) with the TPSS functional and the def2-SV(P) basis set. Then, a single-point interaction energy (with the monomer geometries taken from the complex geometry without optimisation) was calculated at the Local Coupled Cluster Singles and Doubles with perturbed Triples at the complete basis set (LCCSD(T)/CBS) level in vacuum.
+
+Due to computational limitations, this single-point interaction energy was calculated using the Polarisable Multipole Interaction with Supermolecular Pairs (PMISP) method [1]. Thus, the host was divided into 28 "positive" fragments and 32 "negative" fragments, in such a way that when summing all the atoms in the positive fragments and subtracting the atoms in the negative fragment, one reproduces the exact set of atoms in the host.
+
+For each fragment, the supermolecular interaction energy with the guest molecule was computed using the following scheme:
+
+E[LCCSD(T)/CBS] = E[LCCSD(T)/cc-pVTZ] - E[LMP2/cc-pVTZ] + E[MP2/CBS]
+
+where MP2/CBS was estimated by an extrapolation using MP2/aug-cc-pVTZ and MP2/aug-cc-pVQZ calculations. All calculations were performed by the MOLPRO software using standard density fitting techniques, and with the parameters for LCCSD(T) set to rclose=3, rweak=5, and KEEPCLS=1. Two complete sets of interaction energies were computed, one using no BSSE-correction and the other using the full counterpoise procedure.
+
+In a separate set of calculations, the electron density of each host fragment and the guest was computed at the LMP2/cc-pVTZ level (using the variational density), and expanded as distributed multipoles (in atom centers and bond midpoints) up to the octupole level, supplemented with anisotropic polarisabilities. The multipoles and polarisabilities were computed by the LoProp method [2] as implemented in MOLCAS.
+
+Finally, the results were combined into a single interaction energy by adding and subtracting the pairwise interaction energies between the guest and the positive and negative fragments, respectively, and estimating the non-additivity (many-body effects) by a polarisable multipole description of the whole host-guest complex. 
+
+The systematic error associated with the classical description of non-additivity was analyzed by performing reference calculations with several smaller basis sets, and thus a constant correction factor of +3.25 kcal/mol was added to the interaction energies of all guests. We verified that the BSSE-corrected and non-BSSE-corrected calculations gave the same final results within 0.2 kcal/mol, indicating that the complete basis set level was adequatly emulated (with the BSSE-corrected results finally used). In the submission of the results, all the free energy values were shifted by 5.13 kcal/mol so that the experimental value of guest 6 (= -5.04 kcal/mol [3])was reproduced; thus only relative binding affinities were estimated.
+
+Estimated time consumption (in hours; person/cpu_single_processor) for the CCSD(T) correction (not including the underlying DFT-D described in submission 551)
+
+Setup 10/0
+LCCSD(T) 2/6000
+MP2/CBS  3/9000
+Density  5/3000
+Total    20/18000
+
+[1] Söderhjelm, P., Ryde, U.; J. Phys. Chem. A 2009, 113, 617-627
+[2] Gagliardi, L., Lindh, R., Karlström, G.; J. Chem. Phys. 2004, 121, 4494-4500.
+[3] H. Sun, C. L. D. Gibb, B. C. Gibb, Supramol. Chem. 20 (2008) 141

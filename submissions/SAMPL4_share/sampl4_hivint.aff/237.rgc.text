@@ -1,0 +1,5 @@
+Docking was done separately to all 3 binding sites (257, 267, 277)
+Assuming the affinities for all 3 were equal (almost surely not the case),
+the individual ligands were assigned to whichever binding site they scored
+the best to with automated docking with DOCK3.7, resulting in a single
+merged list of ranks, affinities and poses.

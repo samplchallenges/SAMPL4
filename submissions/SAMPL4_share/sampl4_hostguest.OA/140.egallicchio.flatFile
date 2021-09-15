@@ -1,0 +1,15 @@
+RefNo: 140
+Username: egallicchio
+Email: emilio.gallicchio@gmail.com
+Anonymous: no
+Method: 3D implSolv multConf md
+Personhours: 2 to 5 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: Various
+Predicted RMSE: 1.5
+Datafile: ../database/sampl4_hostguest.OA/140.egallicchio.data
+Datafile Name: OctaAcid_Predictions.txt
+Methodfile: ../database/sampl4_hostguest.OA/140.egallicchio.text
+Methodfile Name: narrative.txt
+

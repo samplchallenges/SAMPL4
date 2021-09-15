@@ -1,0 +1,15 @@
+RefNo: 175
+Username: dtmoustakas
+Email: demetri.moustakas@alkermes.com
+Anonymous: no
+Method: explSolv 3D multConf
+Personhours: Less than 1 hour
+CPUhours: 1 minute
+OS: Linux
+Hardware: Intel Xeon
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/175.dtmoustakas.data
+Datafile Name: SITE_C_SZMAP-SUBMISSION.csv
+Methodfile: ../database/sampl4_hivint.vs/175.dtmoustakas.text
+Methodfile Name: method_description_PHDOCK_SZMAP.txt
+

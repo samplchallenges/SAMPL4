@@ -1,0 +1,22 @@
+# Format: Compound number, predicted relative binding free energy in kcal/mol, predicted uncertainty in calculated value (kcal/mol), confidence (1=low confidence, 5=very confidence)
+# This is a commma-delimited file format. Lines preceded by a '#' will be treated as comments.
+# A section of comments at the end should be used to specify any experimental data consulted during the challenge and how it was used, if at all.
+1,  -15.5, 4, 4 
+2, -12.5, 4, 4 
+3, -18.3, 4, 4 
+4, -9.7, 4, 4 
+5, -13.3, 3, 4 
+6, -13.9, 3, 4 
+7, -12.6, 3, 4 
+8, -16.1, 3, 4 
+9, -14.0, 3, 4  
+10, -11.4, 4, 2  
+11, -16.0, 3, 4 #Racemic mix
+11a, -14.1, 3, 4 #Isomer 1
+11b, -16.4, 3, 4 #Isomer 2
+12, -15.9, 3, 3
+13, -19.9, 3, 3
+14, -22.7, 3, 4
+# List any experimental data consulted (with references) and how it was used, if at all, here.
+# Solvation contributions and a constant offset to the binding free energy were parameterized
+# based on experimental data for 29 host-guest systems as previously described (JCTC 8:2023-2033, 2012). # The same parameters were used here.

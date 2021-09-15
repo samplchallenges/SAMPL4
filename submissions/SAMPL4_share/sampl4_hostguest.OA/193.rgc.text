@@ -1,0 +1,12 @@
+host-guest calculations with DOCK3.7
+The hosts were parameterized as cofactors with am1bcc charges based on 
+old DOCK scripts for parameterizing cofactors of proteins (untested but 
+produced reasonable parameter files).
+As DOCK needs a crystal ligand as a starting position, a randomly chosen ligand
+was placed in the binding site in PyMOL, then automated docking was performed. 
+Many poses seemed poor, so the positions of the ligands were taken as the new
+crystal ligand, producing a more exhaustive sampling of the binding sites.
+The ligands were built using the standard DOCK/ZINC pipeline, with Marvin
+for generating partial charges as described elsewhere.
+Once automated docking completed, the results were reported without 
+interpretation or intervention.

@@ -1,0 +1,15 @@
+RefNo: 555
+Username: u0451437
+Email: jordan.k.meadows@gmail.com
+Anonymous: no
+Method: explSolv flexConf 3D multConf md
+Personhours: Less than 1 hour
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: 8-core 2.4 GHz AMD Magny-Cours processor
+Predicted RMSE: na
+Datafile: ../database/sampl4_hostguest.CB7/555.u0451437.data
+Datafile Name: Metadynamics-tip4pew.txt
+Methodfile: ../database/sampl4_hostguest.CB7/555.u0451437.text
+Methodfile Name: method-tip4pew.txt
+

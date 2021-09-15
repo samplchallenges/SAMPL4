@@ -1,0 +1,8 @@
+DOCK3.7 automated docking was used on 3nf7, aligned to 3nf8. A single binding
+site was used here (the same as used in DUD-E). Since the structure has only
+been aligned and then automated docking was used again, only grid errors
+should contribute to differences in docking, but poses can be submitted for
+this run whereas they cannot be submitted for the other run.
+
+Examining the runs, there are many differences due to just alignment of the PDB
+code (much to my surprise!)

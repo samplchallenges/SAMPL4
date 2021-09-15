@@ -1,0 +1,46 @@
+CB7/Funnel metadynamics
+Relative binding affinities determined from the potential of mean force along the binding axis, calculated by two-dimensional metadynamics using a funnel-shaped restrain to facilitate convergence
+
+System
+
+Host + guest + water + 1-2 Chloride counterions depending on the charge of the ligand.
+Simulations with Na+ ions present were also performed, but they showed worse convergence behavior and the results are not used.
+Compound 10 was modeled as a dication with the middle nitrogen not protonated, based on pKa prediction with ACD/pKa.
+Box size approximately 49x49x49 Ångstrom
+
+Molecular Dynamics setup
+
+Force field: CGenFF 
+Software: NAMD with PLUMED 1.3 Plugin
+Langevin dynamics, NPT ensemble, 300 K, damping coefficient 1 ps^-1, time step 2 fs, water bonds rigid,
+PME electrostatics, non-bonded cutoff 10 Å, PME grid size 50x50x50
+For technical reasons, the center of mass of the host was loosely restrained to the center of the box but no other restraints were used.
+Simulation times for each ligand were 100-300 ns depending on the convergence of the binding free energy estimate.
+
+Funnel metadynamics setup
+
+We define the z axis as perpendicular to the CB7 ring plane with the origo being the center of mass of the host. The first collective variable (CV 1) is the projection of the center of mass of the guest onto the z axis. The second collective variable (CV 2) is the difference between the projections of two selected points of the host onto the z axis, divided by the maximum distance between the points. Thus, at least for guests with a rigid ring structure, it represents the cosine of the angle between the guest axis and the host axis (z axis).
+
+Two-dimensional well-tempered metadynamics was performed. The purpose of CV 1 is to enhance the movement of the guest in and out of the binding site and to provide a suitable CV along which to compute the potential of mean force. The purpose of CV 2 is to enhance rotation of the guest molecule to facilitate entering and exiting the binding site. Simulations performed with metadynamics only on CV 1 gave worse convergence behavior.
+
+Hill height: 0.2 kcal/mol
+Hill stride: added every 0.5 ps.
+Hill width: 0.3 Å on CV 1,    0.1 on CV 2
+Well-tempered metadynamics, bias factor 30
+
+The settings of the funnel restraint were similar to a previous study [1], although we used a "double" funnel because of the geometry of the system. The funnel was described in terms of the ligand's projection on the z axis, and the distance from it ( R), with the restraint being cylindrical with 1Å radius at |Z|>11 Å and conical (widest at Z=0) at [Z|<11Å.
+
+The binding free energy was estimated as follows. First, the 2D free energy surface was projected down on CV 1 using a temperature of 300 K. The free energy difference between the bound and unbound states was determined by integration of Boltzmann factors of the potential of mean force along CV 1, with the bound state defined as |Z|<6 Å and the unbound state as |Z|>12 Å. The result was evaluated every nanosecond and the convergence was monitored. Two time averages of this free enery difference was then calculated, using the last 50 ns of simulation, and using the 50 ns immediately before the last 50 ns.  If the two results agreed within 0.5 kcal/mol, the average was used, otherwise (for three compounds) a manual judgement was done about which value to use depending on artificial strucutres occuring etc. Finally, a correction for the presence of the funnel restraint was applied, shifting all the binding free energies by +3.8 kcal/mol [1]
+
+Several other settings were tested, as will be detailed in the forthcoming paper.
+
+
+Estimated time consumption (in hours; person/cpu_single_processor) 
+
+Setup 30/0
+Preliminary simulations to try out CVs, funnel shape etc.    40/30000
+Production simulations 10/86000
+Evaluation of results 40/0
+Total    120/116000
+
+[1] V. Limongelli, M. Bonomi, M. Parrinello; Prot. Nat. Acad. Science USA, 2013, doi: 10.1073/pnas.1303186110 

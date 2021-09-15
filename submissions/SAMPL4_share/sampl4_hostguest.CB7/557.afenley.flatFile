@@ -1,0 +1,15 @@
+RefNo: 557
+Username: afenley
+Email: afenley@ucsd.edu
+Anonymous: no
+Method: explSolv 3D multConf md
+Personhours: 5 to 10 hours
+CPUhours: 10 hours or more
+OS: Linux
+Hardware: GPU: GTX 680 and 690s
+Predicted RMSE: 4.0
+Datafile: ../database/sampl4_hostguest.CB7/557.afenley.data
+Datafile Name: predictions_dG.txt
+Methodfile: ../database/sampl4_hostguest.CB7/557.afenley.text
+Methodfile Name: description_dG.txt
+

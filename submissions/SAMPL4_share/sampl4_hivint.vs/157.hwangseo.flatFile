@@ -1,0 +1,15 @@
+RefNo: 157
+Username: hwangseo
+Email: hspark@sejong.ac.kr
+Anonymous: no
+Method: flexConf qm 3D implSolv multConf mc
+Personhours: 1 to 2 hours
+CPUhours: 1 hour
+OS: Linux
+Hardware: 2.6GHz quad-core Intel
+Predicted RMSE: -1
+Datafile: ../database/sampl4_hivint.vs/157.hwangseo.data
+Datafile Name: hivint_vs_results.txt
+Methodfile: ../database/sampl4_hivint.vs/157.hwangseo.text
+Methodfile Name: hivint_vs_methods.doc
+
